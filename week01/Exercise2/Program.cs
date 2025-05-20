@@ -30,7 +30,7 @@ class Program
             letter = "F";
 
         if (grade >= 70)
-            Console.WriteLine("congratulations, you passed the course!")
+            Console.WriteLine("congratulations, you passed the course!");
         else
             Console.WriteLine("better luck next time!");
 

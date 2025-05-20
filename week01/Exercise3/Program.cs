@@ -13,11 +13,11 @@ class Program
             Console.WriteLine("What is your guess? ");
             guess = int.Parse(Console.ReadLine());
 
-            if (guess < magicNumber)
+            if (guess < randomNumber)
             
                 Console.WriteLine("Higher");
             
-            else if (guess > magicNumber)
+            else if (guess > randomNumber)
             
                 Console.WriteLine("Lower");
             
